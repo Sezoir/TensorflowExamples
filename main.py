@@ -4,7 +4,8 @@ import importlib
 def main():
     tests = {
         "DNN": False,
-        "CNN": True
+        "CNN": False,
+        "ImageGenerator": True,
     }
 
     for test in tests:
