@@ -19,6 +19,7 @@ def run():
                   'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
     # Bias is typically between 0-1, so want to scale input to be between 0-1 to help the model
+    # Note this just is normalisation of the dataset
     xTrain, xTest = xTrain / 255.0, xTest / 255.0
 
     model = keras.Sequential([

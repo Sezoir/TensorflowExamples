@@ -11,7 +11,7 @@ klr = keras.layers
 def run():
     (xTrain, yTrain), (xTest, yTest) = keras.datasets.cifar10.load_data()
 
-    # Bias is typically between 0-1, so want to scale input to be between 0-1 to help the model
+    # Normalise dataset for better predictions
     xTrain, xTest = xTrain / 255.0, xTest / 255.0
 
     classNames = ['airplane', 'automobile', 'bird', 'cat', 'deer',

@@ -1,11 +1,12 @@
-
 import importlib
+
 
 def main():
     tests = {
         "DNN": False,
         "CNN": False,
-        "ImageGenerator": True,
+        "ImageGenerator": False,
+        "PreTrainedModel": True
     }
 
     for test in tests:
