@@ -6,7 +6,8 @@ def main():
         "DNN": False,
         "CNN": False,
         "ImageGenerator": False,
-        "PreTrainedModel": True
+        "PreTrainedModel": False,
+        "RNN": True
     }
 
     for test in tests:

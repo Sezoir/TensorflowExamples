@@ -5,7 +5,7 @@ from tensorflow import keras
 klr = keras.layers
 
 
-# Note here I am using a Convolutional Neural Networks will find specific patterns anywhere in the image.
+# Note here I am using a Convolutional Neural Network to find specific patterns anywhere in the image.
 # Multiple Convolutional Layers act as filters to tell the NN what "feature" to look for.
 
 def run():

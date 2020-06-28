@@ -8,7 +8,7 @@ import tensorflow_datasets as tfds
 klr = keras.layers
 
 IMGSIZE = 160
-training = False
+training = True
 
 def format_example(image, label):
     """
